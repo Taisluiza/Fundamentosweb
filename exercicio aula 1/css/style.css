@@ -1,0 +1,66 @@
+/*Configuração do index*/
+
+body{
+    background-color: #e17055;
+}
+.container{
+    display: flex;
+    flex-flow: row ;
+    justify-content: justify;
+    align-items: center;
+}
+
+.center{
+    align-items: center;
+}
+
+#menu li {
+    display: inline;
+    padding: 20px;
+}
+#menu li a{
+    text-decoration: none;
+    color: #00b894;
+    font-size: 15px;
+}
+#menu li a:hover{
+    color: aliceblue;
+}
+
+.p-30{
+    padding: 30px;
+}
+.br-50{
+    border-radius: 60%;
+}
+.wh{
+    width: 250px;
+     height: 250px;
+}
+.tm{
+    width: 50px;
+    height: 50px;
+}
+.mg{
+    margin: 50px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #00b894;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+
+
+/*ESTILO DA PAGINA CONTATO*/
+
+.ml{
+    margin-left: 50px;
+}
+
+.fs{
+    font-size: 25px;
+    color: #00b894;
+
+}
